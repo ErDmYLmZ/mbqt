@@ -1,0 +1,8 @@
+mobiquity/stepdefinitions/VerifyEmailFormatStepDefs.class
+mobiquity/stepdefinitions/SearchDelphineStepDefs.class
+mobiquity/runners/CukesRunner.class
+mobiquity/stepdefinitions/InvalidRequestStepDefs.class
+mobiquity/TestBase/Base.class
+mobiquity/stepdefinitions/SearchWithPostsStepDefs.class
+mobiquity/utilities/ConfigurationReader.class
+mobiquity/runners/FailedTestRunner.class

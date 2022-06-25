@@ -1,0 +1,904 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-25T23:39:47.496Z",
+        "line": 8,
+        "name": "Negative Test Coverages",
+        "description": "",
+        "id": "invalid--test-coverage;negative-test-coverages;|-invalidendpoint|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2422000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user sends invalid request \"\u003cinvalidEndPoint\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cinvalidEndPoint\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.the_user_sends_invalid_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:49.954Z",
+        "line": 9,
+        "name": "Negative Test Coverages",
+        "description": "",
+        "id": "invalid--test-coverage;negative-test-coverages;|-invalidendpoint|;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user sends invalid request \"\u003cinvalidEndPoint\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cinvalidEndPoint\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.the_user_sends_invalid_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.097Z",
+        "line": 10,
+        "name": "Negative Test Coverages",
+        "description": "",
+        "id": "invalid--test-coverage;negative-test-coverages;|-invalidendpoint|;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user sends invalid request \"\u003cinvalidEndPoint\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cinvalidEndPoint\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.the_user_sends_invalid_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.194Z",
+        "line": 11,
+        "name": "Negative Test Coverages",
+        "description": "",
+        "id": "invalid--test-coverage;negative-test-coverages;|-invalidendpoint|;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user sends invalid request \"\u003cinvalidEndPoint\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cinvalidEndPoint\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.the_user_sends_invalid_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.320Z",
+        "line": 12,
+        "name": "Negative Test Coverages",
+        "description": "",
+        "id": "invalid--test-coverage;negative-test-coverages;|-invalidendpoint|;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user sends invalid request \"\u003cinvalidEndPoint\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cinvalidEndPoint\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.the_user_sends_invalid_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.InvalidRequestStepDefs.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Invalid  Test Coverage",
+    "description": "",
+    "id": "invalid--test-coverage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/InvalidRequestCoverage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-25T23:39:47.496Z",
+        "line": 13,
+        "name": "Searching with username",
+        "description": "",
+        "id": "search-delphine;searching-with-username;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2422000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User sets the url \"users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"users\"",
+                  "offset": 18
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.userSetsTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.verify_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Content type should be \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 23
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.content_type_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User\u0027s information should contain \"Delphine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delphine\"",
+                  "offset": 34
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.user_s_information_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:49.969Z",
+        "line": 14,
+        "name": "Searching with username",
+        "description": "",
+        "id": "search-delphine;searching-with-username;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User sets the url \"users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"users\"",
+                  "offset": 18
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.userSetsTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.verify_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Content type should be \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 23
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.content_type_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User\u0027s information should contain \"marks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marks\"",
+                  "offset": 34
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.user_s_information_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.102Z",
+        "line": 15,
+        "name": "Searching with username",
+        "description": "",
+        "id": "search-delphine;searching-with-username;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User sets the url \"users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"users\"",
+                  "offset": 18
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.userSetsTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.verify_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Content type should be \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 23
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.content_type_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User\u0027s information should contain \"Leanne Graham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leanne Graham\"",
+                  "offset": 34
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchDelphineStepDefs.user_s_information_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Delphine",
+    "description": "",
+    "id": "search-delphine",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchDelphine.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-25T23:39:47.496Z",
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "search-with-posts;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2422000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sets the new url \"posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.userSetsTheNewUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify response body contain \"userId\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userId\"",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_response_body_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:49.969Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "search-with-posts;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sets the new url \"posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.userSetsTheNewUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify response body contain \"id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_response_body_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.097Z",
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "search-with-posts;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sets the new url \"posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.userSetsTheNewUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify response body contain \"title\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_response_body_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.208Z",
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "search-with-posts;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sets the new url \"posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 22
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.userSetsTheNewUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify response body contain \"body\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"body\"",
+                  "offset": 29
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_response_body_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.320Z",
+        "line": 22,
+        "name": "Verify Specific idNumber",
+        "description": "",
+        "id": "search-with-posts;verify-specific-idnumber;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User sets a new url \"posts\" \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 28
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.user_sets_a_new_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify specific \"magnam facilis autem\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"magnam facilis autem\"",
+                  "offset": 16
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_specific(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.447Z",
+        "line": 23,
+        "name": "Verify Specific idNumber",
+        "description": "",
+        "id": "search-with-posts;verify-specific-idnumber;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User sets a new url \"posts\" \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 28
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.user_sets_a_new_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify specific \"optio molestias id quia eum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"optio molestias id quia eum\"",
+                  "offset": 16
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_specific(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T23:39:50.497Z",
+        "line": 24,
+        "name": "Verify Specific idNumber",
+        "description": "",
+        "id": "search-with-posts;verify-specific-idnumber;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User sets a new url \"posts\" \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posts\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 28
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.user_sets_a_new_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify specific \"eveniet quod temporibus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eveniet quod temporibus\"",
+                  "offset": 16
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_specific(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search with Posts",
+    "description": "",
+    "id": "search-with-posts",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchWithPosts.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-25T23:39:47.496Z",
+        "line": 4,
+        "name": "Verify Email Format",
+        "description": "",
+        "id": "send-comment-request;verify-email-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2792000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User sends get request \"comments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"comments\"",
+                  "offset": 23
+                }
+              ],
+              "location": "mobiquity.stepdefinitions.VerifyEmailFormatStepDefs.user_sends_get_request(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1276000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User validates the email format",
+            "match": {
+              "location": "mobiquity.stepdefinitions.VerifyEmailFormatStepDefs.userValidatesTheEmailFormat()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Send comment request",
+    "description": "",
+    "id": "send-comment-request",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VerifyEmailFormat.feature",
+    "tags": []
+  }
+]

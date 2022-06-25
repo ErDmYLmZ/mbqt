@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber HTML Reports</td>
+        <td>1</td>
+      <td>26 Jun 2022, 01:40</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.InvalidRequestStepDefs.status_code_should_be(int)</td>
+              <td>5</td>
+              <td class="duration" data-value="600000">0.000</td>
+              <td class="duration" data-value="600000">0.002</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.InvalidRequestStepDefs.the_user_sends_invalid_request(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="563200000">0.563</td>
+              <td class="duration" data-value="563200000">2.422</td>
+              <td class="duration" data-value="2816000000">2.816</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchDelphineStepDefs.content_type_should_be(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="333333">0.000</td>
+              <td class="duration" data-value="333333">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchDelphineStepDefs.userSetsTheUrl(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="870666666">0.870</td>
+              <td class="duration" data-value="870666666">2.422</td>
+              <td class="duration" data-value="2612000000">2.612</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchDelphineStepDefs.user_s_information_should_contain(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="15666666">0.015</td>
+              <td class="duration" data-value="15666666">0.040</td>
+              <td class="duration" data-value="47000000">0.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchDelphineStepDefs.verify_status_code_should_be(int)</td>
+              <td>3</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.002</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchWithPostsStepDefs.userSetsTheNewUrl(java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="685750000">0.685</td>
+              <td class="duration" data-value="685750000">2.422</td>
+              <td class="duration" data-value="2743000000">2.743</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchWithPostsStepDefs.user_sets_a_new_url(java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="76000000">0.076</td>
+              <td class="duration" data-value="76000000">0.117</td>
+              <td class="duration" data-value="228000000">0.228</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_response_body_contain(java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="12000000">0.012</td>
+              <td class="duration" data-value="12000000">0.043</td>
+              <td class="duration" data-value="48000000">0.048</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.SearchWithPostsStepDefs.verify_specific(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1333333">0.001</td>
+              <td class="duration" data-value="1333333">0.003</td>
+              <td class="duration" data-value="4000000">0.004</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.VerifyEmailFormatStepDefs.userValidatesTheEmailFormat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1276000000">1.276</td>
+              <td class="duration" data-value="1276000000">1.276</td>
+              <td class="duration" data-value="1276000000">1.276</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">mobiquity.stepdefinitions.VerifyEmailFormatStepDefs.user_sends_get_request(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2792000000">2.792</td>
+              <td class="duration" data-value="2792000000">2.792</td>
+              <td class="duration" data-value="2792000000">2.792</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>12</td>
+            <td>38</td>
+            <td class="duration">0.330</td>
+            <td class="duration">2.816</td>
+            <td class="duration">12.573</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
